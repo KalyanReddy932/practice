@@ -1,0 +1,7 @@
+apiVersion: v1     #The chart API version (required)
+name: nginx        #The name of the chart (required)
+version: 0.0.1     #A SemVer 2 version (required)
+description: This is to understand helm through nginx #A single-sentence description of this project (optional)
+appVersion: 1.0.0  #(for our reference) The version of the app that this contains (optional). Needn't be SemVer. Quotes recommended.
+                   #Next is a templates in seperate folder
+                   #create deployment.yaml and service.yaml inside templates
